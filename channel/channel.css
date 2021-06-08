@@ -1,0 +1,31 @@
+body {
+    display: grid;
+    background: transparent;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    align-items: center;
+}
+
+div.box-container {
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+
+div.box-container > h2 {
+    font-weight: bold;
+    color: white;
+}
+
+div.box-container > .box {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 150px;
+    height: 150px;
+    background-color: gainsboro;
+    opacity: 0.6;
+    border-radius: 2px;
+}
